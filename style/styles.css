@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5rem;
+    background: url(/img/ceu.jpg);
+}
+
+.nome_instituto{
+    display: flex;
+    align-items: center;
+    
+}
+
+.container h1{
+    color: #5aad4a;
+    
+}
+
+.container img{
+    display: flex;
+    margin: auto;
+    padding-left: 1rem;
+    height: 3rem;
+}
+
+.container nav ul {
+    display: flex;
+    gap: 1rem;
+    margin-right: 2rem;
+}
+
+.container li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+main{
+    background: url(/img/floresta.jpg);
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.objetivo_site{
+    margin: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.crimes_ambientais{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.informações_crimes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50rem;
+    height: 50rem;
+    margin: 2rem;
+}
+
+.informações_crimes h4{
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+.informações_crimes p{
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.informações_crimes li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.informações_crimes img{
+    height: 15rem;
+    width: 30rem;
+    margin: auto;
+    padding-top: 2rem;
+}
