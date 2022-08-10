@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    
     
 }
 
@@ -11,7 +13,7 @@
     align-items: center;
     justify-content: space-around;
     height: 5rem;
-    background: url(/img/ceu.jpg);
+    background: url(/img/céu.jpg);
 }
 
 .nome_instituto{
@@ -44,6 +46,17 @@
     font-size: 1.5rem;
 }
 
+.container li a {
+    text-decoration: none;
+    color: #2a363b;
+}
+
+.container li a:hover{
+    transform: scale(2);
+    color: #2a8b8b;
+}
+
+
 main{
     background: url(/img/floresta.jpg);
     height: 10rem;
@@ -55,45 +68,87 @@ main{
     margin: 3rem;
     font-size: 2rem;
     text-align: center;
-    color: white;
+    color: #f3ffeb
 }
 
-.crimes_ambientais{
-    display: flex;
-    flex-wrap:wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+/* informações sobre o site e as denuncias */
+
+.conteudo{
+    background-color: #afb7a0;
+    width: 100%;
 }
 
-.informações_crimes{
-    display: flex;
-    flex-direction: column;
+.principal{
+    padding: 1.5rem 0rem;
+    
+}
+
+.descrição_problema{
+    height: 20rem;
+    width: 80%;
     text-align: center;
-    width: 50rem;
-    height: 50rem;
-    margin: 2rem;
-}
-
-.informações_crimes h4{
-    font-size: 2rem;
-    text-transform: uppercase;
-    padding-bottom: 1rem;
-}
-
-.informações_crimes p{
-    padding-bottom: 1rem;
-    font-size: 1rem;
-}
-
-.informações_crimes li{
-    text-decoration: none;
-    list-style: none;
-}
-
-.informações_crimes img{
-    height: 15rem;
-    width: 30rem;
     margin: auto;
-    padding-top: 2rem;
+    flex-direction: column;
+    box-shadow: 0 0 1em #1a110e;
+    background-color: #f4eed4;
+    padding: 1rem;
+}
+
+.nome_problema {
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.informações_gerais{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#infor_problemas{
+    padding-top: 1rem;
+}
+
+.imagem_problema img{
+    height: 15rem;
+    width: 15rem;
+    padding: 1rem;
+} 
+
+
+
+.conteudo_problema{
+    padding-bottom: 2rem;
+}
+
+
+
+
+/* footer*/
+
+footer{
+    height: 10rem;
+    width: 100%;
+    background-color: #7cb490;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.rede_social{
+    display: flex;
+    text-align: center;
+}
+
+.social{
+    padding: 1rem;
 }
