@@ -1,0 +1,89 @@
+body{
+    background-color: #78b3a4;
+}
+
+.pagina_principal{
+    gap: 4rem;
+}
+
+.denuncias{
+    height: 10rem;
+    width: 100%;
+    
+}
+
+.registro_denuncias{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 0 1em #1a110e;
+    height: 5rem;
+    font-size: 2rem;
+}
+
+.registro_denuncias h3{
+    margin-top: 1rem;
+}
+
+.botão_denuncia{
+    margin-top: 0.5rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: end;
+}
+
+.botão_denuncia button{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+/* comentarios*/
+
+.denuncias_realizadas{
+    width: 50%;
+    height: 20rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-color: #fffeea;
+    box-shadow: 0 0 1em #1a110e;
+}
+
+.titulo_denuncia h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.localização{
+    display: flex;
+    justify-content: end;
+
+}
+
+.local{
+    padding-right: 1rem;
+}
+
+.horario{
+    padding-right: 1rem;
+}
+
+.denuncias_realizadas img{
+    width: 20rem;
+    height: 10rem;
+    margin-top: 2rem;
+}
+
+.infor_denuncia{
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.infor_denuncia p{
+    margin-top: 5rem;
+}
