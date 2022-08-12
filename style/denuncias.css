@@ -1,5 +1,5 @@
 body{
-    background-color: #78b3a4;
+    background-color: #0A0D14;
 }
 
 .pagina_principal{
@@ -19,10 +19,13 @@ body{
     box-shadow: 0 0 1em #1a110e;
     height: 5rem;
     font-size: 2rem;
+    background-color: #ededf2;
+    color: #0A0D14;
 }
 
 .registro_denuncias h3{
     margin-top: 1rem;
+    
 }
 
 .botão_denuncia{
@@ -30,23 +33,32 @@ body{
     padding-right: 1rem;
     display: flex;
     justify-content: end;
+    
 }
 
 .botão_denuncia button{
     font-size: 1rem;
     padding: 0.5rem;
     border-radius: 1rem;
+    background-color: #82bda7;
+    color: #003f69;
+}
+
+.botão_denuncia button:hover{
+    transform: scale(1.2);
+    color: #d43a00;
 }
 
 /* comentarios*/
 
 .denuncias_realizadas{
-    width: 50%;
-    height: 20rem;
+    width: 30%;
+    height: 30rem;
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    background-color: #fffeea;
+    background-color: #ffff;
+    color: #0A0D14;
     box-shadow: 0 0 1em #1a110e;
 }
 
@@ -86,4 +98,17 @@ body{
 
 .infor_denuncia p{
     margin-top: 5rem;
+}
+
+.informações_ocorridos{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.coord{
+    display: flex;
+}
+
+.coord p{
+    padding: 1rem;
 }

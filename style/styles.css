@@ -131,7 +131,7 @@ main{
 footer{
     height: 10rem;
     width: 100%;
-    background-color: #7cb490;
+    background-color: #fcfdff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,7 +140,7 @@ footer{
 
 footer a {
     text-decoration: none;
-    color: white;
+    color: #0A0D14;
 
 }
 
