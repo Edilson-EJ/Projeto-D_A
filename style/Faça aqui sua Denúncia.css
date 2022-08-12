@@ -89,6 +89,22 @@
 
 .buttom:hover{
     transform: scale(1);
-    background-color: #0fc3e8;
-    color: #447390;
+    background-color: #0a996f;
+    color: #0A0D14;
+}
+
+.voltar{
+    padding-top: 1rem;
+
+}
+
+.voltar a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.voltar button{
+    border-radius: 2rem;
+    padding: 0.5rem;
+    background-color: #2b364a;
 }

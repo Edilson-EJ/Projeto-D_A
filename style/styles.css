@@ -131,7 +131,8 @@ main{
 footer{
     height: 10rem;
     width: 100%;
-    background-color: #fcfdff;
+    padding-top: 3rem;
+    background-color: #0A0D14;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,7 +141,7 @@ footer{
 
 footer a {
     text-decoration: none;
-    color: #0A0D14;
+    color: #ffff;
 
 }
 
