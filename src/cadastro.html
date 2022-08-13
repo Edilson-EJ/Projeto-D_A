@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/style/contato.css" >
+    <link rel="stylesheet" href="/style/cadastro.css" >
     <title>Cadastro</title>
 </head>
 <body>
@@ -13,32 +13,33 @@
         <div class="formulario">
             <h1 class="title">Cadastro</h1>
             <form action="" class="form">
-
                 <div class="form_control">
                     <label for="nome">Nome Completo</label>
-                    <input type="text" id="nome" placeholder="Digite o nome completo">
+                    <input type="text" id="nome" name="nome" placeholder="Digite o nome completo">
                 </div>
 
                 <div class="form_control">
                     <label for="cpf">CPF</label>
-                    <input type="number" id="cpf" placeholder="Digite o seu CPF">
+                    <input type="number" id="cpf" name="cpf" placeholder="Digite o seu CPF">
                 </div>
 
                 <div class="form_control">
                     <label for="email">E-mail</label>
-                    <input type="email" id="email" placeholder="Digite o seu email">
+                    <input type="email" id="email" name="email" placeholder="Digite o seu email">
                 </div>
 
                 <div class="form_control">
                     <label for="password">Senha</label>
-                    <input type="password" id="password" placeholder="Digite a senha">
+                    <input type="password" id="password" name="password" placeholder="Digite a senha">
                 </div>
 
                 <div class="btn">
-                    <button type="button" class="buttom">Cadastrar</button>
+                    <button type="button" class="buttom" id="button_cadastro"><a href="/src/Faça aqui sua Denúncia.html">Cadastrar</a></button> 
                 </div>
             </form>
         </div>
     </main>
+
+    <script src="/scripts/script.js"></script>
 </body>
 </html>

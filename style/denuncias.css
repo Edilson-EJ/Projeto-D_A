@@ -4,16 +4,20 @@ body{
 
 .fundo{
     background: url(/img/fundo_denuncias.webp);
+    height: auto;
+    width: auto;
+    padding-bottom: 2rem;
 }
 
 .pagina_principal{
     gap: 4rem;
+
 }
 
 .denuncias{
     height: 10rem;
     width: 100%;
-    
+
 }
 
 .registro_denuncias{
@@ -23,8 +27,8 @@ body{
     box-shadow: 0 0 1em #1a110e;
     height: 5rem;
     font-size: 2rem;
-    background-color: #ededf2;
-    color: #0A0D14;
+    color: #ededf2;
+    background-color:  #0A0D14;
 }
 
 .registro_denuncias h3{
@@ -60,63 +64,84 @@ body{
 /* comentarios*/
 
 .separa{
-    padding-bottom: 20rem;
+    height: auto;
+    width: auto;
 }
-.denuncias_realizadas{
-    width: 20%;
-    height: 24rem;
-    margin: auto;
+
+.infor_denuncias{
     background-color: #ffff;
-    color: #0A0D14;
-    box-shadow: 0 0 1em #1a110e;
-}
-
-.titulo_denuncia h2{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-size: 2rem;
+    width: 30%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
     padding: 1rem;
-    background-color: #0A0D14;
-    color: #ffff;
+    margin-bottom: 2rem;
 }
 
-.informações_ocorridos{
+.topo_postagem{
     display: flex;
-    flex-direction: column;
-    padding: 1rem 1rem ;
-    gap: 0.5rem;
+    gap: 1rem;
+
+    color: #0000;
+
 }
 
-#local{
+#avatar{
+    width: 3.5rem;
+    height: 3.5rem;
+    
+    border-radius: 3rem;
+    border: 1px solid #003e00;
+}
+
+
+#apelido{
+    color: #000000;
     font-size: 1.5rem;
+}
+
+#cidade{
+    color: #000000;
+    font-size: 0.8rem;
+    text-transform: uppercase;
 }
 
 #horario{
-    font-size: 1.5rem;
+    color: #000000;
+    font-size: 0.8rem;
 }
 
-#latitude{
-    font-size: 1.5rem;
+.comentario{
+    padding: 1rem 0rem;
+    gap: 1rem;
 }
 
-#longitude{
-    font-size: 1.5rem;
+#titulo_denuncia{
+    padding-bottom: 1rem;
 }
 
-.infor_denuncia{
+.imagem_localização{
     display: flex;
-    justify-content:space-around;
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.infor_denuncia p{
-    margin-top: 1.5rem;
-    font-size: 2rem;
-}
-
-.denuncias_realizadas img{
-    width: 100%;
+.imagem_localização img{
+    width: 20rem;
     height: 10rem;
-    padding-top: 2rem;
 }
+
+.localização{
+    display: flex;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+.localização h3{
+    padding-bottom: 0.5rem;
+}
+
+
+
+
