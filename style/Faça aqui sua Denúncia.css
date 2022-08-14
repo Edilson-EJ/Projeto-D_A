@@ -45,16 +45,16 @@
 .form_control label{
     display: inline-block;
     margin-top: 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .form_control input{
     border: 2px solid #f0f0f0;
     display: block;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 0.7rem;
     width: 100%;
-    padding: 10px;
+    padding: 0.6rem;
 }
 
 .avatar p{
@@ -79,7 +79,7 @@
     padding-top: 1rem;
 }
 
-.buttom{
+.btn button{
     text-align: center;
     text-decoration: none;
     background-color:  #151515;
@@ -92,30 +92,15 @@
     margin-left: 1rem;
 }
 
-.buttom a{
+.btn a{
     text-decoration: none;
     color: #fff;
 }
 
 
-.buttom:hover{
+.btn button:hover{
     transform: scale(1);
     background-color: #0a996f;
     color: #0A0D14;
 }
 
-.voltar{
-    padding-top: 1rem;
-
-}
-
-.voltar a{
-    text-decoration: none;
-    color: #ffff;
-}
-
-.voltar button{
-    border-radius: 2rem;
-    padding: 0.5rem;
-    background-color: #2b364a;
-}

@@ -5,6 +5,7 @@
 }
 body{
     background: url(/img/desmatamento.jpg);
+    background-size: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -19,6 +20,7 @@ body{
     max-width: 100%;
     overflow: hidden;
     text-align: center;
+    
 }
 
 .title{
@@ -50,7 +52,7 @@ body{
     padding: 10px;
 }
 
-.buttom{
+.btn button{
     text-align: center;
     text-decoration: none;
     background-color:  #151515;
@@ -64,14 +66,30 @@ body{
     margin-left: 1rem;
 }
 
-.buttom a{
+.btn a{
     text-decoration: none;
     color: #fff;
 }
 
-.buttom:hover{
+.btn button:hover{
     transform: scale(1);
     background-color: #0fc3e8;
     color: #447390;
+}
+
+.voltar{
+    padding-top: 1rem;
+
+}
+
+.voltar a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.voltar button{
+    border-radius: 2rem;
+    padding: 0.5rem;
+    background-color: #2b364a;
 }
 
