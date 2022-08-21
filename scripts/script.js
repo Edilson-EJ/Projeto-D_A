@@ -1,12 +1,11 @@
 var botao_cadastro = document.querySelector(".buttom")
-var divPai = document.querySelector('.separa')
+var divPai = document.getElementById('separa')
 
 
 
-botao_cadastro.addEventListener("click", function(event){
+
+function denuncias(){
     
-    //event.preventDefault();
-
     var form = document.querySelector(".form")
     
     var apelido_usuario = form.apelido.value;
@@ -67,7 +66,8 @@ botao_cadastro.addEventListener("click", function(event){
     infor_den.appendChild(topo_post)
     divPai.appendChild(infor_den)
 
-})
+}
+
 
 
 
